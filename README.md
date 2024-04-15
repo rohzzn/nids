@@ -16,6 +16,15 @@ AS-CNN is an approach proposed for enhancing anomaly detection in wireless netwo
 
 - The model's robustness is particularly highlighted in its ability to detect minority attack classes such as Remote-to-Local (R2L) and User-to-Root (U2R) attacks, thereby enhancing cyber threat detection capabilities in wireless networks.
 
+
+![dr](images/dr.png)
+
+![acc](images/acc.png)
+
+|                    DR = {TP} / {FN + TP}                     |            ACC = {TN + TP} / {TN + FN + TP + FP}             |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+| <img src="https://cdn.gamma.app/g4483bacmc95lyd/04461533c602462191c437a482cbaf27/original/dr.png" alt="img" style="zoom: 33%;" /> | <img src="https://cdn.gamma.app/g4483bacmc95lyd/abcf02fea09d44e9b5608c88e2e66f35/original/acc.png" alt="img" style="zoom:33%;" /> |
+
 ## Installation
 
 To run the AS-CNN model and reproduce the results:

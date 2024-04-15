@@ -10,6 +10,12 @@ AS-CNN is an approach proposed for enhancing anomaly detection in wireless netwo
 
 - **Performance Evaluation:** The AS-CNN model is evaluated using the widely-used NSL-KDD dataset, encompassing various attack types. Evaluation metrics include Accuracy (ACC), Detection Rate (DR), and False Alarm Rate (FAR), providing insights into the model's effectiveness in detecting anomalies.
 
+## Datasets
+
+ - KDDTrain
+ - KDDTest+
+ - KDDTest-21
+
 ## Results
 
 - AS-CNN demonstrates superior performance compared to traditional CNN models, exhibiting higher accuracy, increased detection rates, and significantly reduced false alarm rates across different subsets of the NSL-KDD dataset.

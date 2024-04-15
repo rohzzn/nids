@@ -22,6 +22,27 @@ AS-CNN is an approach proposed for enhancing anomaly detection in wireless netwo
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | ![image](https://github.com/rohzzn/nids/assets/47408756/2cc15b24-60ff-4fbd-8b7a-88023a4c2380) | ![image](https://github.com/rohzzn/nids/assets/47408756/6b999368-2056-43ae-9b28-979f37af2342) |
 
+## Performance Comparison
+
+| **Dataset**  | **Model**     | **ACC**   | **DR**    | **FAR**   |
+| ------------ | ------------- | --------- | --------- | --------- |
+| KDDTest+     | CNN           | 79.48     | 68.66     | 27.90     |
+|              | **SPC - CNN** | **83.83** | **74.61** | **22.41** |
+| KDDTest - 21 | CNN           | 60.71     | 58.47     | 71.88     |
+|              | **SPC - CNN** | **69.41** | **66.44** | **60.17** |
+
+
+## Attack Detection Performance
+
+- **AS-CNN** shows superior detection rates for minority attack classes.
+- Other models show significantly lower detection rates for R2L and U2R attacks.
+- AS-CNN’s robustness makes it reliable for cyber threat detection.
+
+1. DoS: Denial of Service
+2. Probe: Network Probe
+3. R2L: Remote-to-Local
+4. U2R: User-to-Root
+
 ## Installation
 
 To run the AS-CNN model and reproduce the results:

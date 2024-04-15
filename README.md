@@ -18,9 +18,9 @@ AS-CNN is an approach proposed for enhancing anomaly detection in wireless netwo
 
 
 
-|                    DR = {TP} / {FN + TP}                     |            ACC = {TN + TP} / {TN + FN + TP + FP}             |
+|                    DR                    |            ACC             |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![dr](images/dr.png)| ![acc](images/acc.png) |
+| ![image](https://github.com/rohzzn/nids/assets/47408756/2cc15b24-60ff-4fbd-8b7a-88023a4c2380) | ![image](https://github.com/rohzzn/nids/assets/47408756/6b999368-2056-43ae-9b28-979f37af2342) |
 
 ## Installation
 

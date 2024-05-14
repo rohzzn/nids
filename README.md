@@ -77,11 +77,6 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## Contributors
-
-- 
-- 
-
 
 ## License
 
